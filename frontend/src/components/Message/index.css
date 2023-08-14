@@ -1,0 +1,25 @@
+.message {
+  display: flex;
+  gap: 1%;
+}
+
+.message-icon {
+  width: 4.5vw;
+  height: 4.5vw;
+}
+
+.message-bubble {
+  width: 70%;
+  padding: 1% 2%;
+  border-radius: 1.75vh;
+  background-color: var(--white);
+}
+
+.message-text {
+  font-size: 2.3rem;
+}
+
+.user {
+  display: flex;
+  flex-direction: row-reverse;
+}

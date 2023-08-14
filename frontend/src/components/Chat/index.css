@@ -1,0 +1,6 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 2% 6%;
+}
