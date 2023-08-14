@@ -1,0 +1,9 @@
+header {
+  height: 7vh;
+  padding: 1vh;
+  background-color: var(--light-green);
+}
+
+.header-name {
+  height: 5vh;
+}

@@ -1,0 +1,46 @@
+.messageInput {
+  position: fixed;
+  bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  width: 87%;
+  background-color: var(--light-green);
+  border-radius: 1.75vh;
+}
+
+.messageText {
+  width: 90%;
+  padding: 2vh;
+  font-size: 2.3rem;
+  background-color: var(--light-green);
+  color: var(--dark-green);
+  border: none;
+  border-radius: 1.75vh;
+  resize: none;
+}
+
+.messageText:focus {
+  outline: none;
+}
+
+.messageText::placeholder {
+  color: var(--white);
+  opacity: 1;
+}
+
+.sendMessageButton {
+  align-self: center;
+  height: 10vh;
+  width: 10vw;
+  background-image: url("/public/assets/sendButton.png");
+  background-position: center;
+  background-size: 10vh;
+  background-repeat: no-repeat;
+  background-color: var(--light-green);
+  border: none;
+  cursor: pointer;
+}
+
+.sendMessageButton:focus {
+  outline: none;
+}
