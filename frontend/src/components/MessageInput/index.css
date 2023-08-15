@@ -38,9 +38,38 @@
   background-repeat: no-repeat;
   background-color: var(--light-green);
   border: none;
+  border-radius: 1.75vh;
   cursor: pointer;
 }
 
 .sendMessageButton:focus {
   outline: none;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .messageText {
+    font-size: 1.9rem;
+  }
+
+  .sendMessageButton {
+    background-size: 10vh;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .messageText {
+    font-size: 1.4rem;
+  }
+
+  .sendMessageButton {
+    background-size: 7vh;
+  }
+}
+@media (max-width: 480px) {
+  .messageText {
+    font-size: 1rem;
+  }
+
+  .sendMessageButton {
+    background-size: 4vh;
+  }
 }

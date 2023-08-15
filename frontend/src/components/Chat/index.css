@@ -4,3 +4,23 @@
   gap: 2vh;
   padding: 2% 6%;
 }
+
+.messagesList {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  height: 63vh;
+  padding-right: 2vh;
+  overflow-y: scroll;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .messagesList {
+    height: 67vh;
+  }
+}
+@media (max-width: 480px) {
+  .messagesList {
+    height: 73vh;
+  }
+}
