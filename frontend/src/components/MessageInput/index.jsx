@@ -3,16 +3,16 @@ import "./index.css"
 
 export default function MessageInput() {
   return (
-    <form className="messageInput">
+    <form className="message-input">
       <textarea
         name="messageText"
-        className="messageText"
+        className="message-input__text"
         placeholder="Write a message"
         cols="35"
         rows="3"
       ></textarea>
 
-      <input type="submit" value="" className="sendMessageButton" />
+      <input type="submit" value="" className="message-input__send-button" />
     </form>
   )
 }

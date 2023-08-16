@@ -6,7 +6,7 @@ import MessageInput from "../MessageInput"
 export default function Chat() {
   return (
     <div className="chat">
-      <div className="messagesList">
+      <div className="messages-list">
         <Message messageAuthor="bot" messageText="Hello! How can I help you?" />
         <Message
           messageAuthor="user"

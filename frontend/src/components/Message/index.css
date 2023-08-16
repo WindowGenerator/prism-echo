@@ -3,19 +3,19 @@
   gap: 1%;
 }
 
-.message-icon {
+.message__icon {
   width: 4.5vw;
   height: 4.5vw;
 }
 
-.message-bubble {
+.message__bubble {
   width: 70%;
   padding: 1% 2%;
   border-radius: 1.75vh;
   background-color: var(--white);
 }
 
-.message-text {
+.message__text {
   font-size: 2.3rem;
 }
 
@@ -25,17 +25,17 @@
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .message-text {
+  .message__text {
     font-size: 1.9rem;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  .message-text {
+  .message__text {
     font-size: 1.4rem;
   }
 }
 @media (max-width: 480px) {
-  .message-text {
+  .message__text {
     font-size: 1rem;
   }
 }
