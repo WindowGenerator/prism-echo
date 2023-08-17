@@ -5,7 +5,7 @@ export default function Message(props) {
   return (
     <div className={"message " + props.messageAuthor}>
       <img
-        className="message-icon"
+        className="message__icon"
         src={
           props.messageAuthor === "bot"
             ? "./assets/botIcon.png"
@@ -13,8 +13,8 @@ export default function Message(props) {
         }
         alt="icon"
       />
-      <div className="message-bubble">
-        <p className="message-text">{props.messageText}</p>
+      <div className="message__bubble">
+        <p className="message__text">{props.messageText}</p>
       </div>
     </div>
   )

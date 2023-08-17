@@ -1,4 +1,4 @@
-.messageInput {
+.message-input {
   position: fixed;
   bottom: 5vh;
   display: flex;
@@ -8,7 +8,7 @@
   border-radius: 1.75vh;
 }
 
-.messageText {
+.message-input__text {
   width: 90%;
   padding: 2vh;
   font-size: 2.3rem;
@@ -19,16 +19,16 @@
   resize: none;
 }
 
-.messageText:focus {
+.message-input__text:focus {
   outline: none;
 }
 
-.messageText::placeholder {
+.message-input__text::placeholder {
   color: var(--white);
   opacity: 1;
 }
 
-.sendMessageButton {
+.message-input__send-button {
   align-self: center;
   height: 10vh;
   width: 10vw;
@@ -42,34 +42,34 @@
   cursor: pointer;
 }
 
-.sendMessageButton:focus {
+.message-input__send-button:focus {
   outline: none;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .messageText {
+  .message-input__text {
     font-size: 1.9rem;
   }
 
-  .sendMessageButton {
+  .message-input__send-button {
     background-size: 10vh;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  .messageText {
+  .message-input__text {
     font-size: 1.4rem;
   }
 
-  .sendMessageButton {
+  .message-input__send-button {
     background-size: 7vh;
   }
 }
 @media (max-width: 480px) {
-  .messageText {
+  .message-input__text {
     font-size: 1rem;
   }
 
-  .sendMessageButton {
+  .message-input__send-button {
     background-size: 4vh;
   }
 }
