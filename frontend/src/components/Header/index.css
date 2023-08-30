@@ -1,9 +1,9 @@
-header {
+.header {
   height: 7vh;
   padding: 1vh;
   background-color: var(--light-green);
 }
 
-.header-name {
+.header__name {
   height: 5vh;
 }
